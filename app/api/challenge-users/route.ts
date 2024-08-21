@@ -130,6 +130,10 @@ export async function POST(request: Request) {
     return map;
   }, {} as UserMetaMap);
 
+  // Log the contents of userMetaMap and challengePreferences
+  console.log("userMetaMap", userMetaMap);
+  console.log("challengePreferences", challengePreferences);
+
   // Add messages to threads
   const threadAndNotificationsPromises: Promise<any>[] = [];
 
@@ -152,6 +156,7 @@ export async function POST(request: Request) {
         // Send Notification
         if (cp.sendNotifications) {
           const correspondingUserMeta = userMetaMap[cp.userId];
+          if (correspondingUserMeta) {
           threadAndNotificationsPromises.push(
             axios.post(
               `${process.env.NEXT_PUBLIC_BASE_URL}/api/send-notifications`,
@@ -167,6 +172,9 @@ export async function POST(request: Request) {
               }
             )
           );
+        } else {
+          console.warn(`User meta data not found for userId: ${cp.userId}`);
+        }
         }
       }
     });

@@ -1,12 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
-  "/api/message/list/route": "app/api/message/list/route.js",
-  "/sign-in/[[...sign-in]]/page": "app/sign-in/[[...sign-in]]/page.js",
-  "/api/user-thread/route": "app/api/user-thread/route.js",
-  "/api/assistant/route": "app/api/assistant/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/challenge-users/route": "app/api/challenge-users/route.js",
+  "/api/openai/route": "app/api/openai/route.js",
   "/api/message/create/route": "app/api/message/create/route.js",
-  "/api/run/create/route": "app/api/run/create/route.js",
-  "/api/run/retrieve/route": "app/api/run/retrieve/route.js",
-  "/(app)/page": "app/(app)/page.js"
+  "/api/send-notifications/route": "app/api/send-notifications/route.js"
 }
