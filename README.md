@@ -39,25 +39,25 @@ To get started with this project, follow these steps:
 3. **Set Up Environment Variables:**
    Create a `.env` file in the root of the project and add your environment variables:
    ```env
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-  CLERK_SECRET_KEY=
+     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+     CLERK_SECRET_KEY=
 
-  NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-  NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-  NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-  NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
-
-  OPENAI_API_KEY=
-
-  APP_SECRET_KEY=
-
-  DATABASE_URL=
-  DIRECT_URL=
-
-  NEXT_PUBLIC_BASE_URL=http://localhost:3000
-
-  NEXT_PUBLIC_VAPID_PUBLIC_KEY=B
-  VAPID_PRIVATE_KEY=
+     NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+     NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+     NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+     NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+   
+     OPENAI_API_KEY=
+   
+     APP_SECRET_KEY=
+   
+     DATABASE_URL=
+     DIRECT_URL=
+   
+     NEXT_PUBLIC_BASE_URL=http://localhost:3000
+   
+     NEXT_PUBLIC_VAPID_PUBLIC_KEY=B
+     VAPID_PRIVATE_KEY=
    ```
 
 4. **Run Migrations:**
