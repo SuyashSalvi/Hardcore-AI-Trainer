@@ -27,8 +27,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/fullstack-ai-fitness-coach.git
-   cd fullstack-ai-fitness-coach
+   git clone https://github.com/yourusername/hardcore-ai-trainer.git
+   cd hardcore-ai-trainer
    ```
 
 2. **Install Dependencies:**
