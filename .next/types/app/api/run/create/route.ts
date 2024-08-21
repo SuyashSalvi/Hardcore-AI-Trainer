@@ -1,8 +1,8 @@
-// File: /Users/suyash/Desktop/react/nextjs/goggins-ai-coach/app/api/openai/route.ts
-import * as entry from '../../../../../app/api/openai/route.js'
+// File: /Users/suyash/Desktop/react/nextjs/goggins-ai-coach/app/api/run/create/route.ts
+import * as entry from '../../../../../../app/api/run/create/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../app/api/openai/route.js')
+type TEntry = typeof import('../../../../../../app/api/run/create/route.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

@@ -3,11 +3,18 @@
 import { assistantAtom, userThreadAtom } from "@/atoms";
 import axios from "axios";
 import { useAtom } from "jotai";
-import { Run, ThreadMessage } from "openai/resources/beta/threads/index.mjs";
+import { Run } from "openai/resources/beta/threads/index.mjs";
 import React, { useCallback, useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
 const POLLING_FREQUENCY_MS = 1000;
+
+type ThreadMessage = {
+  id: string;
+  content: Array<{ type: string; text: { value: string } }>;
+  created_at: string;
+  metadata?: { fromUser?: string };
+};
 
 function ChatPage() {
   // Atom State

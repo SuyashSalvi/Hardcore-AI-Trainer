@@ -1,8 +1,8 @@
-// File: /Users/suyash/Desktop/react/nextjs/goggins-ai-coach/app/api/challenge-users/route.ts
-import * as entry from '../../../../../app/api/challenge-users/route.js'
+// File: /Users/suyash/Desktop/react/nextjs/goggins-ai-coach/app/api/run/retrieve/route.ts
+import * as entry from '../../../../../../app/api/run/retrieve/route.js'
 import type { NextRequest } from 'next/server.js'
 
-type TEntry = typeof import('../../../../../app/api/challenge-users/route.js')
+type TEntry = typeof import('../../../../../../app/api/run/retrieve/route.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
