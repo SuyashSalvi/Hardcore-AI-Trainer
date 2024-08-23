@@ -56,7 +56,7 @@ To get started with this project, follow these steps:
    
      NEXT_PUBLIC_BASE_URL=http://localhost:3000
    
-     NEXT_PUBLIC_VAPID_PUBLIC_KEY=B
+     NEXT_PUBLIC_VAPID_PUBLIC_KEY=
      VAPID_PRIVATE_KEY=
    ```
 
