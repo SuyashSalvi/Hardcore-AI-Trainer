@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Hardcore AI Fitness Coach project! This application is a modern, full-stack web app designed to deliver AI-generated fitness workouts to your phone throughout the day. Built with Next.js, TypeScript, React, ChatGPT, Tailwind CSS, Prisma, and Upstash, this project leverages advanced technologies to create a personalized fitness coach experience.
+Welcome to the Hardcore AI Fitness Coach project! This application is a modern, full-stack web app designed to deliver AI-generated fitness workouts to your phone throughout the day. Built with Next.js, TypeScript, React, ChatGPT, Tailwind CSS, Prisma, and Supabase, this project leverages advanced technologies to create a personalized fitness coach experience.
 
 ## Features
 
