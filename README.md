@@ -81,8 +81,7 @@ To get started with this project, follow these steps:
 - **Tailwind CSS:** Utilized for styling the application with a responsive and modern design.
 - **OpenAI GPT:** Powers the AI fitness coach, generating personalized workout routines and responses.
 - **Clerk:** Handles user authentication, managing secure login and registration.
-- **PlanetScale & Prisma:** Manage and store user data and workout logs.
-- **Upstash:** Provides a serverless database for efficient and scalable data storage.
+- **Supabase & Prisma:** Manage and store user data and workout logs, with a serverless database for efficient and scalable data storage.
 
 ### Workflow
 
@@ -101,7 +100,7 @@ To get started with this project, follow these steps:
    - Users can chat with the AI coach, receive responses, and provide feedback on workouts.
 
 5. **Data Management:**
-   - User data and workout logs are stored in a PlanetScale database, accessed and managed using Prisma.
+   - User data and workout logs are stored in a Supabase database, accessed and managed using Prisma.
 
 6. **Progressive Web App Features:**
    - The app is configured as a PWA, allowing users to install it on their devices and receive notifications even when the app is not open.
